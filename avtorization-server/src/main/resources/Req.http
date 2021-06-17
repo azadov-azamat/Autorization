@@ -1,11 +1,11 @@
-GET http://localhost:8030/api/user/me
+GET http://localhost/api/user/me
 Content-Type: application/json
 Accept-Language: uz
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI5Y2QzYTk4NS1lODIxLTRkNWItOGQ3Yi02NGRkM2RhYjM3OWIiLCJpYXQiOjE2MjM5MTg4NTMsImV4cCI6MTYyNTY0Njg1Mywicm9sZXMiOlt7ImlkIjoyLCJyb2xlTmFtZSI6IlJPTEVfQ0xJRU5UIiwiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV19.ibtV7_QahYkhrLUGjJQObLDjKDhYBDErl3qRbbj0cuwuRZ5b7LTor9w044uQXwURJIjf1Uiw1TSogk6CFsG4mQ
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiNDY5YWIxNS05MzlkLTRhYWYtYTllNy04ZjQ4ZjViNWYyYjciLCJpYXQiOjE2MjM5MjAwOTMsImV4cCI6MTYyNTY0ODA5Mywicm9sZXMiOlt7ImlkIjoxLCJyb2xlTmFtZSI6IlJPTEVfU1VQRVJfQURNSU4iLCJhdXRob3JpdHkiOiJST0xFX1NVUEVSX0FETUlOIn1dfQ.Cb2g8GnOGB7oqQ014rJGyxS7PvVnvEUhfe6uIdzdByiIJ6PZfdgQgPlWTmdGL5i2RTmR8OLNw9ufUCOOFZvi6w
 
 ###
 
-POST http://localhost:8030/api/auth/login
+POST http://localhost/api/auth/login
 Content-Type: application/json
 Accept-Language: uz
 
