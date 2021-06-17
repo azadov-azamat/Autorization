@@ -1,0 +1,52 @@
+GET http://localhost:8030/api/user/me
+Content-Type: application/json
+Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI5Y2QzYTk4NS1lODIxLTRkNWItOGQ3Yi02NGRkM2RhYjM3OWIiLCJpYXQiOjE2MjM5MTg4NTMsImV4cCI6MTYyNTY0Njg1Mywicm9sZXMiOlt7ImlkIjoyLCJyb2xlTmFtZSI6IlJPTEVfQ0xJRU5UIiwiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV19.ibtV7_QahYkhrLUGjJQObLDjKDhYBDErl3qRbbj0cuwuRZ5b7LTor9w044uQXwURJIjf1Uiw1TSogk6CFsG4mQ
+
+###
+
+POST http://localhost:8030/api/auth/login
+Content-Type: application/json
+Accept-Language: uz
+
+{
+  "phoneNumber": "+998977117711",
+  "password": "root123"
+}
+
+###
+
+POST http://localhost:8030/api/auth/login
+Content-Type: application/json
+Accept-Language: uz
+#Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzYmI0ZGJjYS0yY2U3LTQwMDMtYjY0ZC1kNWMzOWFkNmVhMmQiLCJpYXQiOjE2MjI1NzU2MjIsImV4cCI6MTYyMzE4MDQyMiwicm9sZXMiOlt7ImlkIjoxLCJyb2xlTmFtZSI6IlJPTEVfU1VQRVJfQURNSU4iLCJhdXRob3JpdHkiOiJST0xFX1NVUEVSX0FETUlOIn1dfQ.cXbn_6Czmkzy9hr2YEs77KAullWLsUOmUL1OELkCxBvEguPDkGMV1BAmVgaKHGMJXgcrITAWZf8EOF9F9ovL2g
+
+{
+  "phoneNumber": "+998992344565",
+  "password": "root123"
+}
+
+###
+
+POST http://localhost:8070/api/auth/register
+Content-Type: application/json
+Accept-Language: uz
+
+{
+  "firstName": "Client",
+  "lastName": "Clientova",
+  "surName": "Clientovna",
+  "userName": "client_clientova",
+  "phoneNumber": "+998977111923",
+  "email": "clientxon123@gmail.com"
+}
+###
+
+PUT http://localhost:8070/api/user/editPassword
+Content-Type: application/json
+#Accept-Language: uz
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI3NTMxMWY5Zi05ZGQxLTQ2MzctYWYyMC1lMTk1NGFiMWIzYTIiLCJpYXQiOjE2MjM1NjU5NzMsImV4cCI6MTYyNTI5Mzk3Mywicm9sZXMiOlt7ImlkIjoyLCJyb2xlTmFtZSI6IlJPTEVfQ0xJRU5UIiwiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV19.lJNOHPiPnQlkb1CHskHaFoWpa1Wosrj9Gkvgx4JIDNuXWQPZT6ivJiT3aJ1BUjmrdceh954X5Xlf_IuTYigFaw
+
+{
+  "password": "root123"
+}
